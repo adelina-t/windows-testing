@@ -22,22 +22,13 @@
         "vmSize": "Standard_D2s_v3",
         "osDiskSizeGB": 128,
         "availabilityProfile": "AvailabilitySet",
-        "osType": "Windows",
-        "preProvisionExtension":
-            {
-                "name": "node_setup",
-                "singleOrAll": "all"
-            }
+        "osType": "Windows"
       }
     ],
     "windowsProfile": {
       "adminUsername": "azureuser",
       "adminPassword": "replacepassword1234$",
-      "windowsPublisher": "MicrosoftWindowsServer",
-      "windowsOffer": "WindowsServerSemiAnnual",
-      "windowsSku": "Datacenter-Core-1809-with-Containers-smalldisk",
-      "imageVersion": "1809.0.20190214",
-      "windowsDockerVersion": "18.09.0"
+      "windowsDockerVersion": "18.09.5"
     },
     "linuxProfile": {
       "adminUsername": "azureuser",
