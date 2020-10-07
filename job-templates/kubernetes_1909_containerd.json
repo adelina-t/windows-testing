@@ -46,8 +46,8 @@
       "sshEnabled": true,
       "windowsPublisher": "MicrosoftWindowsServer",
       "windowsOffer": "WindowsServer",
-      "windowsSku": "Datacenter-Core-2004-with-Containers-smalldisk",
-      "imageVersion": "19041.329.2006042019"
+      "windowsSku": "Datacenter-Core-1909-with-Containers-smalldisk",
+      "imageVersion": "18363.900.2006061800"
     },
     "linuxProfile": {
       "adminUsername": "azureuser",
